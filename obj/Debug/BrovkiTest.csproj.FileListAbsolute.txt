@@ -14,3 +14,4 @@ C:\Users\Alex\source\repos\BrovkiTest\obj\Debug\BrovkiTest.csproj.GenerateResour
 C:\Users\Alex\source\repos\BrovkiTest\obj\Debug\BrovkiTest.csproj.CoreCompileInputs.cache
 C:\Users\Alex\source\repos\BrovkiTest\obj\Debug\BrovkiTest.exe
 C:\Users\Alex\source\repos\BrovkiTest\obj\Debug\BrovkiTest.pdb
+C:\Users\Alex\source\repos\BrovkiTest\obj\Debug\App.baml

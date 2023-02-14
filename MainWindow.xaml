@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:BrovkiTest"
         mc:Ignorable="d"
-        Title="MainWindow" Height="600" Width="900"
+        Title="Приложение салона красоты" Height="600" Width="900"
         Background="#e1e4ff"
         ResizeMode="CanMinimize">
     <Grid>
@@ -18,7 +18,7 @@
         <StackPanel VerticalAlignment="Center"
                     HorizontalAlignment="Center">
             <TextBlock
-                Text="Бархатные бровки"/>
+                Text="БАРХАТНЫЕ БРОВКИ"/>
         </StackPanel>
         <Frame
             Grid.Row="1"

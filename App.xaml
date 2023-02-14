@@ -4,6 +4,38 @@
              xmlns:local="clr-namespace:BrovkiTest"
              StartupUri="MainWindow.xaml">
     <Application.Resources>
-         
+        <Style TargetType="TextBlock">
+            <!--TextBlock-->
+            <Setter Property="Margin" Value="2.5"/>
+            <Setter Property="FontFamily" Value="Tahoma"/>
+            <Setter Property="FontWeight" Value="Bold"/>
+            <Setter Property="FontSize" Value="20pt"/>
+            <Setter Property="Foreground" Value="White"/>
+        </Style>
+
+        <Style TargetType="TextBox">
+            <!--TextBox-->
+            <Setter Property="Margin" Value="2.5"/>
+            <Setter Property="FontFamily" Value="Tahoma"/>
+            <Setter Property="FontWeight" Value="Bold"/>
+            <Setter Property="FontSize" Value="20pt"/>
+            <Setter Property="Foreground" Value="White"/>
+        </Style>
+
+        <Style TargetType="Button">
+            <!--Button-->
+            <Setter Property="Margin" Value="2.5"/>
+            <Setter Property="FontFamily" Value="Tahoma"/>
+            <Setter Property="FontWeight" Value="Bold"/>
+            <Setter Property="FontSize" Value="20pt"/>
+            <Setter Property="Foreground" Value="White"/>
+            <Setter Property="Background" Value="#ff4a6d"/>
+        </Style>
+
+        <Style TargetType="DataGrid">
+            <!--DataGrid-->
+            <Setter Property="Margin" Value="2.5"/>
+            <Setter Property="FontFamily" Value="Tahoma"/>
+        </Style>
     </Application.Resources>
 </Application>
