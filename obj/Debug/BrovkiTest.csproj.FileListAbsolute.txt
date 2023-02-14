@@ -1,0 +1,16 @@
+C:\Users\Alex\source\repos\BrovkiTest\bin\Debug\BrovkiTest.exe.config
+C:\Users\Alex\source\repos\BrovkiTest\bin\Debug\BrovkiTest.exe
+C:\Users\Alex\source\repos\BrovkiTest\bin\Debug\BrovkiTest.pdb
+C:\Users\Alex\source\repos\BrovkiTest\obj\Debug\BrovkiTest.csproj.AssemblyReference.cache
+C:\Users\Alex\source\repos\BrovkiTest\obj\Debug\BrovkiTest.csproj.SuggestedBindingRedirects.cache
+C:\Users\Alex\source\repos\BrovkiTest\obj\Debug\MainWindow.g.cs
+C:\Users\Alex\source\repos\BrovkiTest\obj\Debug\App.g.cs
+C:\Users\Alex\source\repos\BrovkiTest\obj\Debug\BrovkiTest_MarkupCompile.cache
+C:\Users\Alex\source\repos\BrovkiTest\obj\Debug\BrovkiTest_MarkupCompile.lref
+C:\Users\Alex\source\repos\BrovkiTest\obj\Debug\MainWindow.baml
+C:\Users\Alex\source\repos\BrovkiTest\obj\Debug\BrovkiTest.g.resources
+C:\Users\Alex\source\repos\BrovkiTest\obj\Debug\BrovkiTest.Properties.Resources.resources
+C:\Users\Alex\source\repos\BrovkiTest\obj\Debug\BrovkiTest.csproj.GenerateResource.cache
+C:\Users\Alex\source\repos\BrovkiTest\obj\Debug\BrovkiTest.csproj.CoreCompileInputs.cache
+C:\Users\Alex\source\repos\BrovkiTest\obj\Debug\BrovkiTest.exe
+C:\Users\Alex\source\repos\BrovkiTest\obj\Debug\BrovkiTest.pdb

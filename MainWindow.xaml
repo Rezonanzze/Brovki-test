@@ -5,8 +5,24 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:BrovkiTest"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
+        Title="MainWindow" Height="600" Width="900"
+        Background="#e1e4ff"
+        ResizeMode="CanMinimize">
     <Grid>
-        
+        <Grid.RowDefinitions>
+            <RowDefinition Height="40*"/>
+            <RowDefinition Height="200*"/>
+        </Grid.RowDefinitions>
+
+        <StackPanel Background="#ff4a6d"/>
+        <StackPanel VerticalAlignment="Center"
+                    HorizontalAlignment="Center">
+            <TextBlock
+                Text="Бархатные бровки"/>
+        </StackPanel>
+        <Frame
+            Grid.Row="1"
+            NavigationUIVisibility="Hidden"
+            Name="FrameNav"/>
     </Grid>
 </Window>
