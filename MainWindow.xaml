@@ -14,12 +14,20 @@
             <RowDefinition Height="200*"/>
         </Grid.RowDefinitions>
 
+        
+        <!--Шапка приложения-->
         <StackPanel Background="#ff4a6d"/>
         <StackPanel VerticalAlignment="Center"
-                    HorizontalAlignment="Center">
+                    HorizontalAlignment="Center"
+                    Orientation="Horizontal">
+            <Image Source="./Elements/Media/beauty_logo.png"/>
             <TextBlock
-                Text="БАРХАТНЫЕ БРОВКИ"/>
+                Text="БАРХАТНЫЕ БРОВКИ"
+                VerticalAlignment="Center"/>
         </StackPanel>
+        
+        
+        <!--Frame навигации-->
         <Frame
             Grid.Row="1"
             NavigationUIVisibility="Hidden"
