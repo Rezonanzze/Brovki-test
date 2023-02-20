@@ -1,4 +1,5 @@
-﻿using System;
+﻿using BrovkiTest.Actions;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -12,6 +13,7 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using BrovkiTest.PageMain; // использование папки с страницами
 
 namespace BrovkiTest
 {
@@ -23,6 +25,9 @@ namespace BrovkiTest
         public MainWindow()
         {
             InitializeComponent();
+
+            NavigationClass.Navigation = FrameNav; //Название класса> Название элемента в самом классе> название созданного фрейма на главном окне
+            FrameNav.Navigate(new DefaultPage());
         }
     }
 }

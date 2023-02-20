@@ -9,6 +9,25 @@
       Title="UserPage">
 
     <Grid>
-        
+        <Grid.RowDefinitions>
+            <RowDefinition Height="15*"/>
+            <RowDefinition Height="122*"/>
+            <RowDefinition Height="20*"/>
+        </Grid.RowDefinitions>
+        <GroupBox
+            Header="Работа с данными"/>
+        <DataGrid
+            Grid.Row="1">
+            
+        </DataGrid>
+        <GroupBox
+            Header="Подвал"
+            Grid.Row="2">
+            <Button
+                Name="ButtonBack"
+                Click="ButtonBack_Click"
+                Style="{StaticResource ButtonDef}"
+                Content="Назад"/>
+        </GroupBox>
     </Grid>
 </Page>

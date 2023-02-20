@@ -23,7 +23,8 @@
             <Image Source="./Elements/Media/beauty_logo.png"/>
             <TextBlock
                 Text="БАРХАТНЫЕ БРОВКИ"
-                VerticalAlignment="Center"/>
+                VerticalAlignment="Center"
+                Style="{StaticResource TextBlock}"/>
         </StackPanel>
         
         

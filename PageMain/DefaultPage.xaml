@@ -9,6 +9,24 @@
       Title="DefaultPage">
 
     <Grid>
-        
+        <StackPanel
+            Orientation="Horizontal"
+            HorizontalAlignment="Center"
+            VerticalAlignment="Center">
+            <Button
+                Name="ButtonLoginUser"
+                Width="300"
+                Height="50"
+                Content="Войти как пользователь"
+                Style="{StaticResource ButtonDef}"
+                Click="ButtonLoginUser_Click"/>
+            <Button
+                Name="ButtonLoginAdmin"
+                Width="300"
+                Height="50"
+                Content="Войти как администратор"
+                Style="{StaticResource ButtonDef}"
+                Click="ButtonLoginAdmin_Click"/>
+        </StackPanel>
     </Grid>
 </Page>

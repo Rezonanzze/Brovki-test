@@ -12,6 +12,7 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using BrovkiTest.Actions;
 
 namespace BrovkiTest.PageMain
 {
@@ -23,6 +24,16 @@ namespace BrovkiTest.PageMain
         public AdminLoginPage()
         {
             InitializeComponent();
+        }
+
+        private void ButtonAdminSignIn_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void ButtonABack_Click(object sender, RoutedEventArgs e)
+        {
+            NavigationClass.Navigation.GoBack();
         }
     }
 }

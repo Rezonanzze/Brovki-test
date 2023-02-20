@@ -9,6 +9,31 @@
       Title="AdminLoginPage">
 
     <Grid>
-        
+        <StackPanel
+            HorizontalAlignment="Center"
+            VerticalAlignment="Center"
+            Width="400">
+            <GroupBox
+                Header="Введите пароль администратора"/>
+            <PasswordBox/>
+            
+            <StackPanel 
+                Orientation="Horizontal"
+                HorizontalAlignment="Right">
+                <Button
+                Name="ButtonAdminSignIn"
+                Content="Войти"
+                Click="ButtonAdminSignIn_Click"
+                Style="{StaticResource ButtonDef}"
+                Width="100"/>
+
+                <Button
+                Name="ButtonABack"
+                Content="Назад"
+                Click="ButtonABack_Click"
+                Style="{StaticResource ButtonDef}"
+                Width="100"/>
+            </StackPanel>
+        </StackPanel>
     </Grid>
 </Page>

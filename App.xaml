@@ -4,7 +4,7 @@
              xmlns:local="clr-namespace:BrovkiTest"
              StartupUri="MainWindow.xaml">
     <Application.Resources>
-        <Style TargetType="TextBlock">
+        <Style TargetType="TextBlock" x:Key="TextBlock">
             <!--TextBlock-->
             <Setter Property="Margin" Value="2.5"/>
             <Setter Property="FontFamily" Value="Tahoma"/>
@@ -13,7 +13,7 @@
             <Setter Property="Foreground" Value="White"/>
         </Style>
 
-        <Style TargetType="TextBox">
+        <Style TargetType="TextBox" x:Key="TextBox">
             <!--TextBox-->
             <Setter Property="Margin" Value="2.5"/>
             <Setter Property="FontFamily" Value="Tahoma"/>
@@ -22,12 +22,11 @@
             <Setter Property="Foreground" Value="White"/>
         </Style>
 
-        <Style TargetType="Button">
+        <Style TargetType="Button" x:Key="ButtonDef">
             <!--Button-->
             <Setter Property="Margin" Value="2.5"/>
             <Setter Property="FontFamily" Value="Tahoma"/>
-            <Setter Property="FontWeight" Value="Bold"/>
-            <Setter Property="FontSize" Value="20pt"/>
+            <Setter Property="FontSize" Value= "14pt"/>
             <Setter Property="Foreground" Value="White"/>
             <Setter Property="Background" Value="#ff4a6d"/>
         </Style>
@@ -36,6 +35,24 @@
             <!--DataGrid-->
             <Setter Property="Margin" Value="2.5"/>
             <Setter Property="FontFamily" Value="Tahoma"/>
+            <Setter Property="Background" Value="White"/>
         </Style>
+
+        <Style TargetType="GroupBox">
+            <!--GroupBox-->
+            <!--Общий-->
+            <Setter Property="Margin" Value="2.5"/>
+            <Setter Property="FontFamily" Value="Tahoma"/>
+            <Setter Property="FontSize" Value="10pt"/>
+        </Style>
+
+        <Style TargetType="PasswordBox">
+            <!--PasswordBox-->
+            <!--Общий-->
+            <Setter Property="Margin" Value="2.5"/>
+            <Setter Property="FontFamily" Value="Tahoma"/>
+            <Setter Property="FontSize" Value="10pt"/>
+        </Style>
+        
     </Application.Resources>
 </Application>
