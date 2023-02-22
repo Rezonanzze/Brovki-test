@@ -15,7 +15,8 @@
             Width="400">
             <GroupBox
                 Header="Введите пароль администратора"/>
-            <PasswordBox/>
+            <PasswordBox
+                Name="AdminPasswordBox"/>
             
             <StackPanel 
                 Orientation="Horizontal"

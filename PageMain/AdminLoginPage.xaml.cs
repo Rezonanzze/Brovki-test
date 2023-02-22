@@ -28,7 +28,25 @@ namespace BrovkiTest.PageMain
 
         private void ButtonAdminSignIn_Click(object sender, RoutedEventArgs e)
         {
+            try
+            {
+                if (AdminPasswordBox.Password == "0000")
+                {
+                    //Тест - Название уведовления - Тип кнопки - Изображение уведовления
+                    MessageBox.Show("Введён верный пароль. Перенаправления на страницу администрации","Уведомление",MessageBoxButton.OK,MessageBoxImage.Information);
 
+                    NavigationClass.Navigation.Navigate(new AdminPage());
+                }
+
+                else
+                {
+                    MessageBox.Show("Введён НЕ верный пароль. Попробуйте ещё раз", "Уведомление", MessageBoxButton.OK, MessageBoxImage.Error);
+                }
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message);
+            }
         }
 
         private void ButtonABack_Click(object sender, RoutedEventArgs e)
